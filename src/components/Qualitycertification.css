@@ -1,0 +1,526 @@
+/* ===========================
+   QUALITY STANDARDS SECTION
+=========================== */
+
+.quality-standards-section{
+  padding: 50px 0;
+  background: #fff;
+}
+
+.quality-standards-container{
+  width: 72%;
+  margin: 0 auto;
+}
+
+/* QUOTE ROW */
+
+.quality-quote-row{
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.quality-quote{
+  font-size: 65px;
+  color: #e3e3e3;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.quality-intro{
+  flex: 1;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #333;
+  margin-top: 6px;
+}
+
+/* DIVIDER */
+
+.quality-divider{
+  width: 100%;
+  height: 1px;
+  background: #e5e5e5;
+  margin: 35px 0 40px;
+}
+
+/* HEADING */
+
+.quality-heading{
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.quality-line{
+  width: 55px;
+  height: 4px;
+  background: #f4c300;
+  margin-bottom: 25px;
+}
+
+/* DESCRIPTION */
+
+.quality-description{
+  font-size: 15px;
+  line-height: 1.8;
+  color: #333;
+  max-width: 1000px;
+  margin-bottom: 20px;
+}
+
+/* LIST */
+
+.quality-list{
+  list-style: none;
+  padding-left: 40px;
+}
+
+.quality-list li{
+  position: relative;
+  font-size: 15px;
+  line-height: 2;
+  color: #1c84c6;
+}
+
+.quality-list li::before{
+  content: "✓";
+  position: absolute;
+  left: -24px;
+  color: #1c84c6;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+/* =========================
+   CERTIFICATION CARDS
+========================= */
+
+.certifications-section{
+  width: 72%;
+  margin: 40px auto 60px;
+}
+
+.certification-card{
+  position: relative;
+
+  background: #fff;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  gap: 35px;
+
+  padding: 25px 35px;
+
+  margin-bottom: 30px;
+
+  box-shadow: 0 3px 12px rgba(0,0,0,0.06);
+}
+
+/* LEFT COLORED STRIP */
+
+.card-strip{
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 8px;
+  height: 100%;
+
+  border-radius: 8px 0 0 8px;
+
+  background:
+  linear-gradient(
+    to bottom,
+    #f59c42 0%,
+    #f59c42 33%,
+    #f5c21a 33%,
+    #f5c21a 66%,
+    #8fc34a 66%,
+    #8fc34a 100%
+  );
+}
+
+/* IMAGE */
+
+.card-image{
+  flex: 0 0 180px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image img{
+  width: 150px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* CONTENT */
+
+.card-content{
+  flex: 1;
+}
+
+.card-content h2{
+  font-size: 28px;
+  font-weight: 600;
+  color: #0f4d8b;
+
+  margin-bottom: 6px;
+  line-height: 1.2;
+}
+
+.card-content h4{
+  font-size: 16px;
+  font-weight: 400;
+  color: #222;
+
+  margin-bottom: 18px;
+}
+
+.card-quote{
+  font-size: 50px;
+  color: #dcdcdc;
+
+  line-height: 0.8;
+
+  margin-bottom: -10px;
+}
+
+.card-content p{
+  font-size: 15px;
+  line-height: 1.9;
+
+  color: #333;
+
+  max-width: 650px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 992px){
+
+  .certification-card{
+    flex-direction: column;
+    text-align: center;
+
+    gap: 20px;
+
+    padding: 25px;
+  }
+
+  .card-image{
+    flex: unset;
+  }
+
+  .card-image img{
+    width: 120px;
+  }
+
+  .card-content h2{
+    font-size: 24px;
+  }
+
+  .card-content h4{
+    font-size: 15px;
+  }
+
+  .card-content p{
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .card-quote{
+    font-size: 42px;
+  }
+}
+/* ================= HERO SECTION ================= */
+
+.who-hero-section {
+  width: 100%;
+  height: 470px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+
+  background: rgba(8, 22, 60, 0.55);
+
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.hero-content h1 {
+  max-width: 800px;
+
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffc107;
+
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  max-width: 750px;
+
+  font-size: 18px;
+  color: #fff;
+
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.hero-btn {
+  background: #ffc107;
+  border: none;
+
+  padding: 12px 30px;
+  border-radius: 4px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background: #e6ad00;
+}
+
+/* ================= BREADCRUMB ================= */
+
+.breadcrumb-wrapper {
+  background: #fff;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+}
+
+.breadcrumb-container {
+  width: 80%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 14px 0;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  color: #1f4b8f;
+  font-size: 15px;
+}
+
+.breadcrumb-link:hover {
+  color: #ffc107;
+}
+
+.active-page {
+  color: #666;
+  font-size: 15px;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+
+  .who-hero-section {
+    height: 350px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .hero-btn {
+    padding: 10px 22px;
+    font-size: 15px;
+  }
+
+  .breadcrumb-container {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+/* ===================================
+   PDCA SECTION
+=================================== */
+
+.pdca-section{
+  padding: 50px 0 60px;
+  background: #fff;
+}
+
+.pdca-container{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.pdca-title{
+  font-size: 36px;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 8px;
+}
+
+.pdca-line{
+  width: 70px;
+  height: 5px;
+  background: #f4c300;
+  margin-bottom: 25px;
+}
+
+.pdca-description{
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 35px;
+}
+
+.pdca-image-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pdca-image-wrapper img{
+  width: 100%;
+  max-width: 500px;   /* reduced from 700px */
+  height: auto;
+  display: block;
+}
+/* ===================================
+   ISO 9001 SECTION
+=================================== */
+
+.iso-section{
+  padding: 35px 0 45px;
+  background: #fff;
+}
+
+.iso-container{
+  width: 85%;
+  max-width: 1400px;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* important */
+}
+
+/* HEADING */
+
+/* HEADING */
+
+.iso-title{
+  font-size: 28px;
+  font-weight: 600;
+  color: #1f1f1f;
+
+  line-height: 1.3;
+
+ 
+width: 100%;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+/* YELLOW LINE */
+
+.iso-line{
+  width: 60px;
+  height: 4px;
+
+  background: #f4c300;
+
+  margin-bottom: 20px;
+
+ margin-left: 0;
+  margin-right: auto;
+}
+
+/* DESCRIPTION */
+
+.iso-description{
+  font-size: 15px;
+  line-height: 1.8;
+
+  color: #444;
+
+  width: 100%;
+  max-width: 1100px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* IMAGE WRAPPER */
+
+.iso-image-wrapper{
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMAGE */
+
+.iso-image-wrapper img{
+  width: 100%;
+  max-width: 520px;   /* Reduce further if needed */
+
+  height: auto;
+
+  display: block;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px){
+
+  .iso-container{
+    width: 90%;
+  }
+
+  .iso-title{
+    font-size: 22px;
+  }
+
+  .iso-description{
+    font-size: 14px;
+  }
+
+  .iso-image-wrapper img{
+    max-width: 100%;
+  }
+
+}
