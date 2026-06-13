@@ -3,13 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "deploy": "wrangler deploy",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "dev": "vite",
+  "build": "vite build",
+  "predploy": "rm -f dist/_redirects",
+  "deploy": "npm run predploy && wrangler deploy"
+  }
+
   "dependencies": {
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
