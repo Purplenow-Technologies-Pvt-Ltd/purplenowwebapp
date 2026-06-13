@@ -6,7 +6,6 @@ import Services from "./components/Services";
 import Footer from "./components/Footer";
 import Cloud from "./components/Cloud";
 import ComplianceManager from "./components/ComplianceManager";
-
 import Newsletter from "./components/Newsletter";
 import ObsolescenceManagement from "./components/ObsolescenceManagement";
 import EnvironmentalRegulations from "./components/Environmentalregulations";
@@ -25,11 +24,6 @@ import Qualitycertification from "./components/Qualitycertification";
 import CoreImplementation from "./components/CoreImplementation";
 import ManagedServices from "./components/ManagedServices";
 import SupportServices from "./components/SupportServices";
-
-
-
-
-
 import ScrollToTop from "./components/ScrollToTop";
 import Automative from "./components/Automative";
 
@@ -64,9 +58,7 @@ function App() {
           path="/solutions/ionexus-compliance-manager"
           element={<ComplianceManager />}
         />
-
         
-
         <Route
           path="/solutions/obsolescence-management-services"
           element={<ObsolescenceManagement />}
