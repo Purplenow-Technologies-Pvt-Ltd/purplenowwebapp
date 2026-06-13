@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
+    
   "scripts": {
     "dev": "vite",
-    "build": "vite build && rm -f dist/_redirects",
+    "build": "vite build",
+    "postbuild": "node -e \"require('fs').unlinkSync('dist/_redirects')\"",
     "deploy": "wrangler deploy"
   },
-
   "dependencies": {
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
