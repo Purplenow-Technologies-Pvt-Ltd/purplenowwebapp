@@ -1136,3 +1136,51 @@
   width: 100%;
   padding: 18px 0;
 }
+/* CAREER DROPDOWN */
+
+.career-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.career-dropdown span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.career-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  min-width: 190px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  border-radius: 2px;
+  padding: 10px 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: all 0.25s ease;
+  z-index: 999;
+}
+
+.career-dropdown:hover .career-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.career-dropdown-menu a {
+  display: block;
+  padding: 12px 18px;
+  text-decoration: none;
+  color: #222;
+  font-size: 16px;
+}
+
+.career-dropdown-menu a:hover {
+  background: #f5f5f5;
+}

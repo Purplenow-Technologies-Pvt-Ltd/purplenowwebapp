@@ -26,6 +26,9 @@ import ManagedServices from "./components/ManagedServices";
 import SupportServices from "./components/SupportServices";
 import ScrollToTop from "./components/ScrollToTop";
 import Automative from "./components/Automative";
+import Jobs from "./components/Jobs";
+import JobDetails from "./components/JobDetails";
+import Leadership from "./components/Leadership";
 
 function HomePage() {
   return (
@@ -137,9 +140,13 @@ function App() {
   path="/support-services"
   element={<SupportServices />}
 />
+<Route path="/jobs" element={<Jobs />} />
+<Route path="/jobs/:id" element={<JobDetails />} />
 
-
-
+<Route
+  path="/leadership"
+  element={<Leadership />}
+/>
    </Routes>
    
 

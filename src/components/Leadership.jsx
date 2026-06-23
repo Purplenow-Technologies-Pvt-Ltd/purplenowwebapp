@@ -5,6 +5,9 @@ import heroBg from "../assets/who-we-are-banner.png";
 import profilePlaceholder from "../assets/profile-placeholder.png";
 import "./Leadership.css";
 import { Link } from "react-router-dom";
+import anupamaImg from "../assets/anupama.jpg";
+import srideviImg from "../assets/sridevi.jpg";
+import raviImg from "../assets/ravi.jpg";
 
 function Leadership() {
   return (
@@ -62,129 +65,103 @@ function Leadership() {
   </div>
 </div>
 
-<section className="leadership-section">
-  <div className="leadership-container">
-
-    {/* LEFT CONTENT */}
-
-    <div className="leadership-content">
-
-      <h2 className="leadership-title">
-        CEO
-      </h2>
-
-      <div className="leadership-line"></div>
-
-      <p>
-        Meet Manoharan Nallasamy, our CEO. With a Mechanical Engineering
-        degree from Bharathiyar University, India, and a Master of
-        Engineering Management degree from Duke University, USA,
-        Manoharan brings over 20 years of hands-on experience in
-        engineering, technology, and management consulting.
-        His expertise spans product design, development and management,
-        business process improvement, and supply chain optimization.
-        He has worked in diverse industries including Consumer Products,
-        Heavy Equipment & Machinery, Life Science & Laboratory Products,
-        Analytical Instruments, and Automation & Control.
-        Manoharan is experienced in building engineering services teams
-        with global standards. His leadership has driven the successful
-        establishment of high-quality engineering practices aligned with
-        industry best practices.
-      </p>
-
-      
-
-    </div>
-
-    {/* RIGHT PROFILE */}
-
-    <div className="leadership-profile">
-
-      <img
-        src={profilePlaceholder}
-        alt="CEO"
-        className="leader-image"
-      />
-
-      <h3 className="leader-name">
-        Manoharan Nallasamy
-      </h3>
-
-      <p className="leader-designation">
-        CEO
-      </p>
-
-    </div>
-
-  </div>
-</section>
 
 {/* DIRECTORS SECTION */}
 
-<section className="directors-section">
+<section className="leadership-section">
 
-  <div className="directors-container">
+  <div className="leadership-container">
 
-    <div className="directors-heading-block">
-      <h2>Directors</h2>
+    <h2 className="leadership-main-title">
+      Leadership Team
+    </h2>
 
-      <div className="directors-line"></div>
-    </div>
+    <div className="leadership-line"></div>
 
-    <div className="directors-grid">
+    <div className="leadership-grid">
 
-      {/* CARD 1 */}
+      {/* CEO */}
 
-      <div className="director-card">
-        <img
-          src={profilePlaceholder}
-          alt="Director"
-          className="director-image"
-        />
+      <div className="director-profile-card">
 
-        <h3>Arun Kumar Pappusamy</h3>
-        <p>Director</p>
+        <div className="director-top">
 
-        <div className="director-icons">
-          <span>🔗</span>
-          <span>✉️</span>
+          <img
+  src={raviImg}
+  alt="Ravikanth Varigonda"
+  className="director-profile-image"
+/>
+          <div className="director-info">
+            <h3>Ravikanth Varigonda</h3>
+            <span>CEO</span>
+          </div>
+
         </div>
+
+        <p className="director-description">
+          Ravikanth Varigonda is a technology leader and entrepreneur with
+          over 20 years of experience in Data Engineering, Cloud Computing,
+          IoT, and Embedded Systems. As Founder & CEO of Purplenow,
+          he drives innovation, digital transformation, and enterprise
+          technology solutions across industries.
+        </p>
+
       </div>
 
-      {/* CARD 2 */}
+      {/* Director 1 */}
 
-      <div className="director-card">
-        <img
-          src={profilePlaceholder}
-          alt="Director"
-          className="director-image"
-        />
+      <div className="director-profile-card">
 
-        <h3>Santhanand</h3>
-        <p>Director</p>
+        <div className="director-top">
 
-        <div className="director-icons">
-          <span>🔗</span>
-          <span>✉️</span>
+          <img
+            src={anupamaImg}
+            alt="Anupama Sarraf"
+            className="director-profile-image"
+          />
+
+          <div className="director-info">
+            <h3>Anupama Sarraf</h3>
+            <span>Director</span>
+          </div>
+
         </div>
+
+        <p className="director-description">
+          Anupama Sarraf is an entrepreneur, product strategist, and
+          business leader with expertise in SaaS, IT consulting,
+          and growth strategy. As Co-Founder of Purplenow,
+          she helps drive innovation and long-term business growth.
+        </p>
+
       </div>
 
-      {/* CARD 3 */}
+      {/* Director 2 */}
 
-      <div className="director-card">
-        <img
-          src={profilePlaceholder}
-          alt="Director"
-          className="director-image"
-        />
+      <div className="director-profile-card">
 
-        <h3>Ilango Thangavelu</h3>
-        <p>Director</p>
+        <div className="director-top">
 
-        <div className="director-icons">
-          <span>🔗</span>
-          <span>✉️</span>
+          <img
+            src={srideviImg}
+            alt="Sridevi Baghele"
+            className="director-profile-image"
+          />
+
+          <div className="director-info">
+            <h3>Sridevi Baghele</h3>
+            <span>Director</span>
+          </div>
+
         </div>
+
+        <p className="director-description">
+          Sridevi Baghele is an experienced HR leader and entrepreneur
+          specializing in talent management, employee engagement,
+          and organizational development. As Co-Founder of Purplenow,
+          she leads people-focused growth initiatives.
+        </p>
+
       </div>
 
     </div>

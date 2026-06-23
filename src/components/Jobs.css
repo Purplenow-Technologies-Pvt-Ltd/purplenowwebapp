@@ -1,0 +1,269 @@
+.jobs-page {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* HERO SECTION */
+
+.jobs-hero {
+  width: 100%;
+  height: 520px;
+
+  /* Move image slightly down */
+  background-position: center 1%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+/* Matches JSX */
+.jobs-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(7, 15, 33, 0.55);
+  display: flex;
+  align-items: flex-start;
+}
+
+.jobs-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+padding: 170px 80px 0;
+  color: #fff;
+}
+
+.jobs-content h1 {
+  max-width: 650px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #f5b400;
+  margin-bottom: 18px;
+}
+
+.jobs-content p {
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.talk-btn {
+  background: #f5b400;
+  color: #000;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.talk-btn:hover {
+  background: #dfa300;
+}
+
+/* TABLET */
+
+@media (max-width: 992px) {
+  .jobs-hero {
+    height: 450px;
+    background-position: center 40%;
+  }
+
+  .jobs-content {
+    padding: 0 40px;
+  }
+
+  .jobs-content h1 {
+    font-size: 42px;
+  }
+
+  .jobs-content p {
+    font-size: 18px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .jobs-hero {
+    height: 400px;
+    background-position: center 45%;
+  }
+
+  .jobs-content {
+    padding: 0 24px;
+  }
+
+  .jobs-content h1 {
+    font-size: 32px;
+  }
+
+  .jobs-content p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .talk-btn {
+    padding: 12px 24px;
+    font-size: 15px;
+  }
+}
+.jobs-search-section {
+  background: #f4f4f4;
+  padding: 20px 0;
+}
+
+.jobs-search-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+.jobs-breadcrumb {
+  text-align: right;
+  margin-bottom: 15px;
+  color: #0f4c81;
+  font-size: 13px;
+}
+
+.jobs-search-container h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.jobs-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.jobs-filters input,
+.jobs-filters select {
+  flex: 1;
+  min-width: 180px;
+  height: 44px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-size: 14px;
+}
+
+.search-btn {
+  background: white;
+  border: 1px solid #0f4c81;
+  color: #0f4c81;
+  padding: 0 16px;
+  height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.reset-btn {
+  background: #0f4c81;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  height: 44px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.jobs-list-section {
+  max-width: 1100px;
+  margin: 35px auto;
+  padding: 0 25px;
+}
+
+.jobs-list-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.job-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.job-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.job-top h3 {
+  font-size: 22px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.location {
+  color: #666;
+  font-size: 14px;
+}
+
+.job-description {
+  margin: 15px 0;
+  line-height: 1.6;
+  color: #444;
+  font-size: 14px;
+}
+
+.view-job-btn {
+  background: #0f4c81;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.job-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-type {
+  background: #d8ff96;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.posted-date {
+  color: #666;
+  font-size: 13px;
+}
+
+.jobs-breadcrumb a {
+  text-decoration: none;
+  color: #0f4c81;
+  font-weight: 500;
+}
+
+.no-jobs {
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #666;
+}
+.view-job-btn,
+.view-job-btn:hover,
+.view-job-btn:focus,
+.view-job-btn:active {
+  text-decoration: none !important;
+}

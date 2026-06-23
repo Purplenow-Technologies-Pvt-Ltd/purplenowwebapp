@@ -79,10 +79,22 @@ const [aboutDropdown, setAboutDropdown] = useState(false);
 
               
 
-              <span>
-                Careers
-                <IoIosArrowDown className="down-icon" />
-              </span>
+             <div className="career-dropdown">
+  <span>
+    Careers
+    <IoIosArrowDown className="down-icon" />
+  </span>
+
+  <div className="career-dropdown-menu">
+  {/* <Link to="/life-at-purplenow">
+      Life at Purplenow
+    </Link>  */}
+
+    <Link to="/jobs">
+      Jobs
+    </Link>
+  </div>
+</div>
 
             </div>
 
@@ -144,7 +156,9 @@ const [aboutDropdown, setAboutDropdown] = useState(false);
       Quality Certification
     </Link>
     
-
+<Link to="/leadership">
+      Leadership
+    </Link>
     
   </div>
 </li>
