@@ -61,7 +61,7 @@ function JobDetails() {
   title: "Cloud Engineer",
   location: "Indianapolis, IN",
   type: "Contract",
-  experience: "3+ Years",
+  experience: "4+ Years",
   qualification: "B.Tech",
   description: "Cloud Engineer will be responsible for designing, implementing, and maintaining secure, scalable, and reliable cloud infrastructure solutions. The role involves managing cloud environments, automating deployments, monitoring system performance, and ensuring high availability of applications and services. The candidate will work closely with development, DevOps, and security teams to optimize cloud resources, improve operational efficiency, and support digital transformation initiatives. Strong experience with cloud platforms such as AWS, Azure, or Google Cloud Platform, along with expertise in automation, containerization, and infrastructure management, is highly desirable.",
 
@@ -87,7 +87,7 @@ function JobDetails() {
   title: "Electronics Engineer",
   location: "Mariton, New Jersey,USA",
   type: "Onsite",
-  experience: "7+ Years",
+  experience: "4 Years",
   qualification: "B.Tech",
   description: "The Electronics Engineer is responsible for VLSI SoC Verification & Validation Engineer will be responsible for highly specialized duties in the design, research, and validation of System-on-Chip (SoC) architectures for the Prunus Project. This role requires advanced technical knowledge typically acquired through a Bachelor’s degree or higher in Electronics Engineering, Electrical Engineering, or a closely related field.",
 
@@ -100,7 +100,7 @@ function JobDetails() {
   ],
 
   qualifications: [
-    "Bachelor’s or Master’s degree in Electrical Engineering, Electronics Engineering, Computer Engineering, or a related field.",
+    "Bachelor’s Degree Electronics Engineering",
     "Strong knowledge of System-on-Chip (SoC) architecture and design.",
     "Experience with SoC Verification and Validation methodologies.",
     "Hands-on experience with FPGA prototyping, simulation, and emulation tools."
