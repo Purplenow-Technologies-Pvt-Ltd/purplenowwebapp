@@ -36,6 +36,14 @@ const [jobType, setJobType] = useState("");
     description:
       "A cloud engineer is an IT professional responsible for designing, deploying, and maintaining scalable and secure cloud infrastructure. They bridge the gap between software development and IT operations, managing compute, storage, and networking resources on platforms like AWS, Microsoft Azure, or Google Cloud.",
   },
+  {
+    id: 4,
+    title: "VLSI SoC Verification & Validation Engineer",
+    location: "Mariton, New Jersey,USA",
+    type: "Onsite",
+    description:
+      "The VLSI SoC Verification & Validation Engineer will be responsible for highly specialized duties in the design, research, and validation of System-on-Chip (SoC) architectures for the Prunus Project. This role requires advanced technical knowledge typically acquired through a Bachelor’s degree or higher in Electronics Engineering, Electrical Engineering, or a closely related field.",
+  },
  
 ];
 const filteredJobs = jobsData.filter((job) => {

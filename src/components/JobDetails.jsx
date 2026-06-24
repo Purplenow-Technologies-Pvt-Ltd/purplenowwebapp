@@ -81,6 +81,31 @@ function JobDetails() {
     "Experience with version control systems such as Git and collaborative development workflows."
   ]
 },
+
+{
+  id: 4,
+  title: "VLSI SoC Verification & Validation Engineer",
+  location: "Mariton, New Jersey,USA",
+  type: "Onsite",
+  experience: "7+ Years",
+  qualification: "B.Tech",
+  description: "The VLSI SoC Verification & Validation Engineer will be responsible for highly specialized duties in the design, research, and validation of System-on-Chip (SoC) architectures for the Prunus Project. This role requires advanced technical knowledge typically acquired through a Bachelor’s degree or higher in Electronics Engineering, Electrical Engineering, or a closely related field.",
+
+  responsibilities: [
+    "System-on-Chip Security Engineering R&D (Prunus Project)",
+    "Define secure SoC architectures integrating hardware, firmware, and software security features.",
+    "Develop verification plans covering functional, performance, and security aspects.",
+    "Conduct pre-silicon validation using simulation, emulation, and FPGA prototyping.",
+    "Perform post-silicon validation to ensure robustness under real workloads."
+  ],
+
+  qualifications: [
+    "Bachelor’s or Master’s degree in Electrical Engineering, Electronics Engineering, Computer Engineering, or a related field.",
+    "Strong knowledge of System-on-Chip (SoC) architecture and design.",
+    "Experience with SoC Verification and Validation methodologies.",
+    "Hands-on experience with FPGA prototyping, simulation, and emulation tools."
+  ]
+},
   ];
 
   const job = jobsData.find(
