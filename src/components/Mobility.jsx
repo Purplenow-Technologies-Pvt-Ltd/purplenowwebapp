@@ -340,7 +340,7 @@ Schedule a complimentary consultation to discuss your challenges, goals, and opp
       <div className="demo-text">
 
         <h3>
-          Empower Your Business with PurpleNow's Mobile & Web Development Expertise
+          Empower Your Business with Purplenow's Mobile & Web Development Expertise
         </h3>
 
         <p>

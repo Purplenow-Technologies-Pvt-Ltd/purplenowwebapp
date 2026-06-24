@@ -339,11 +339,11 @@ Schedule a complimentary consultation to discuss your challenges, goals, and opp
       <div className="demo-text">
 
         <h3>
-          Unlock the Power of Connected Intelligence with PurpleNow's IoT Solutions
+          Unlock the Power of Connected Intelligence with Purplenow's IoT Solutions
         </h3>
 
         <p>
-          Schedule a personalized consultation with our IoT specialists to discover how PurpleNow can help transform your operations through intelligent connectivity and data-driven innovation. During the consultation, our team will:
+          Schedule a personalized consultation with our IoT specialists to discover how Purplenow can help transform your operations through intelligent connectivity and data-driven innovation. During the consultation, our team will:
         </p>
 
         <ul>

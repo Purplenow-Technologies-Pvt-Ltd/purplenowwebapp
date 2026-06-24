@@ -342,7 +342,7 @@ Schedule a complimentary consultation to discuss your challenges, goals, and opp
       <div className="demo-text">
 
         <h3>
-          Accelerate Innovation with PurpleNow's Embedded Platform Development Expertise
+          Accelerate Innovation with Purplenow's Embedded Platform Development Expertise
         </h3>
 
         <p>
