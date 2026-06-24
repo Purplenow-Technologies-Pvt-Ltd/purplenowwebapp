@@ -10,7 +10,7 @@ function JobDetails() {
   const jobsData = [
     {
   id: 1,
-  title: "Sr. Lead Engineer – SOC Verification & validation",
+  title: "Electronics Engineer",
   location: "San Jose / Austin",
   type: "Onsite",
   experience: "8+ Years",
@@ -26,7 +26,7 @@ function JobDetails() {
   ],
 
   qualifications: [
-    "BS/MS in Electrical Engineering, Computer Engineering or related field",
+    "BS/MS in Electrical & Electronics Engineering, Computer Engineering or related field",
     "8+ years of pre-silicon verification experience",
     "Strong SystemVerilog, C/C++, and Python skills",
     "Experience with PCIe, Ethernet, or UALink protocols"
@@ -84,12 +84,12 @@ function JobDetails() {
 
 {
   id: 4,
-  title: "VLSI SoC Verification & Validation Engineer",
+  title: "Electronics EngineerV",
   location: "Mariton, New Jersey,USA",
   type: "Onsite",
   experience: "7+ Years",
   qualification: "B.Tech",
-  description: "The VLSI SoC Verification & Validation Engineer will be responsible for highly specialized duties in the design, research, and validation of System-on-Chip (SoC) architectures for the Prunus Project. This role requires advanced technical knowledge typically acquired through a Bachelor’s degree or higher in Electronics Engineering, Electrical Engineering, or a closely related field.",
+  description: "The Electronics Engineer is responsible for VLSI SoC Verification & Validation Engineer will be responsible for highly specialized duties in the design, research, and validation of System-on-Chip (SoC) architectures for the Prunus Project. This role requires advanced technical knowledge typically acquired through a Bachelor’s degree or higher in Electronics Engineering, Electrical Engineering, or a closely related field.",
 
   responsibilities: [
     "System-on-Chip Security Engineering R&D (Prunus Project)",
