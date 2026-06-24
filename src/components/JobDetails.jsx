@@ -84,7 +84,7 @@ function JobDetails() {
 
 {
   id: 4,
-  title: "Electronics EngineerV",
+  title: "Electronics Engineer",
   location: "Mariton, New Jersey,USA",
   type: "Onsite",
   experience: "7+ Years",
