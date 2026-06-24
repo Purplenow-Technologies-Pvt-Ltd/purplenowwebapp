@@ -96,8 +96,9 @@ function JobDetails() {
     
     "Define secure SoC architectures integrating hardware, firmware, and software security features.",
     "Balance security, compliance, performance, power, and cost across a diverse portfolio of embedded devices and hardware chips, along with the associated manufacturing and backend infrastructure, in collaboration with cross-functional teams"
-    "Develop verification plans covering functional, performance, and security aspects.",
-    "Conduct pre-silicon validation using simulation, emulation, and FPGA prototyping.",
+    "Develop verification plans covering functional, performance, and security aspects",
+    "The engineer takes ownership of the modem SoC power deliverables for a wireless product that exceeds customer expectations"
+    "Conduct pre-silicon validation using simulation, emulation, and FPGA prototyping",
     "Perform post-silicon validation to ensure robustness under real workloads."
   ],
 
