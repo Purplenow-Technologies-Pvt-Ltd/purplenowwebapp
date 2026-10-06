@@ -28,7 +28,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import Automative from "./components/Automative";
 import Jobs from "./components/Jobs";
 import JobDetails from "./components/JobDetails";
-import Leadership from "./components/Leadership";
+/*import Leadership from "./components/Leadership";*/
 
 function HomePage() {
   return (
